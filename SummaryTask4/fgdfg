@@ -1,0 +1,7 @@
+select * from orders;
+
+select orders.Id, catalog.title, language.name right from orders join catalog, language where language.name = 'en';
+select orders.Id, catalog.title from catalog join orders ON orders.Article = catalog.articul where orders.LangId = 1 and LanguageID = 1;
+
+
+select orders.Id, catalog.title from catalog join orders ON orders.Article = catalog.articul where orders.LangId = 1 and LanguageID = 1;

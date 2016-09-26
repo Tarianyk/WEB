@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+
+	<display-name>SummaryTask4</display-name>
+
+	<listener>
+		<listener-class>ua.nure.tarianyk.SummaryTask4.web.listener.PreLoadListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>ua.nure.tarianyk.SummaryTask4.web.listener.ActivateConnectionPoolListener</listener-class>
+	</listener>
+
+	<welcome-file-list>
+		<welcome-file>/views/public/index.jsp</welcome-file>
+	</welcome-file-list>
+
+
+	<servlet>
+		<servlet-name>FrontController</servlet-name>
+		<servlet-class>ua.nure.tarianyk.SummaryTask4.web.controller.FrontController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FrontController</servlet-name>
+		<url-pattern>/login</url-pattern>
+		<url-pattern>/registration</url-pattern>
+		<url-pattern>/catalog</url-pattern>
+		<url-pattern>/detail</url-pattern>
+		<url-pattern>/addshopcart</url-pattern>
+		<url-pattern>/delete</url-pattern>
+		<url-pattern>/buything</url-pattern>
+		<url-pattern>/admin</url-pattern>
+		<url-pattern>/personalarea</url-pattern>
+		<url-pattern>/sort</url-pattern>
+		<url-pattern>/exit</url-pattern>
+		<url-pattern>/language</url-pattern>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>AccessFilter</filter-name>
+		<filter-class>ua.nure.tarianyk.SummaryTask4.web.filter.AccessFilter</filter-class>
+		<init-param>
+			<param-name>ADMIN</param-name>
+			<param-value>/login /registration /catalog /detail /addshopcart
+				/delete /buything /admin /personalarea /sort /exit /language
+				/contact /views/private/personalarea.jsp
+				/views/private/adminarea.jsp /views/public/contact.jsp
+				/views/public/index.jsp /views/public/registration.jsp
+				/views/public/shoppingcart.jsp /WEB-INF/views/public/camera.jsp
+				/WEB-INF/views/public/cpu.jsp /WEB-INF/views/public/detail.jsp
+				/WEB-INF/views/public/drive.jsp /WEB-INF/views/public/lense.jsp
+				/WEB-INF/views/public/sound.jsp</param-value>
+		</init-param>
+		<init-param>
+			<param-name>USER</param-name>
+			<param-value>/login /registration /catalog /detail /addshopcart
+				/delete /buything /personalarea /sort /exit /language /contact
+				/views/private/personalarea.jsp /views/public/contact.jsp
+				/views/public/index.jsp /views/public/registration.jsp
+				/views/public/shoppingcart.jsp /WEB-INF/views/public/camera.jsp
+				/WEB-INF/views/public/cpu.jsp /WEB-INF/views/public/detail.jsp
+				/WEB-INF/views/public/drive.jsp /WEB-INF/views/public/lense.jsp
+				/WEB-INF/views/public/sound.jsp</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>AccessFilter</filter-name>
+		<url-pattern>/views/private/adminarea.jsp</url-pattern>
+		<url-pattern>/views/private/personalarea.jsp</url-pattern>
+		<url-pattern>/personalarea</url-pattern>
+		<url-pattern>/admin</url-pattern>
+		<url-pattern>/exit</url-pattern>
+		<url-pattern>/login</url-pattern>
+		<url-pattern>/registration</url-pattern>
+		<url-pattern>/catalog</url-pattern>
+		<url-pattern>/detail</url-pattern>
+		<url-pattern>/addshopcart</url-pattern>
+		<url-pattern>/delete</url-pattern>
+		<url-pattern>/sort</url-pattern>
+		<url-pattern>/language</url-pattern>
+		<url-pattern>/buything</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>ValidateFieldsLoginFormFilter</filter-name>
+		<filter-class>ua.nure.tarianyk.SummaryTask4.web.filter.ValidateFieldsLoginFormFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>ValidateFieldsLoginFormFilter</filter-name>
+		<url-pattern>/login</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>ValidateFieldsRegisterFormFilter</filter-name>
+		<filter-class>ua.nure.tarianyk.SummaryTask4.web.filter.ValidateFieldsRegisterFormFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>ValidateFieldsRegisterFormFilter</filter-name>
+		<url-pattern>/registration</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>ValidateFieldsAdminFormFilter</filter-name>
+		<filter-class>ua.nure.tarianyk.SummaryTask4.web.filter.ValidateFieldsAdminFormFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>ValidateFieldsAdminFormFilter</filter-name>
+		<url-pattern>/admin</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>BacketDeserializeFilter</filter-name>
+		<filter-class>ua.nure.tarianyk.SummaryTask4.web.filter.BacketDeserializeFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>BacketDeserializeFilter</filter-name>
+		<url-pattern>/views/public/shoppingcart.jsp</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>LoginFilter</filter-name>
+		<filter-class>ua.nure.tarianyk.SummaryTask4.web.filter.LoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>LoginFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>EncodingFilter</filter-name>
+		<filter-class>ua.nure.tarianyk.SummaryTask4.web.filter.EncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	 <filter>
+		<filter-name>CheckBanFilter</filter-name>
+		<filter-class>ua.nure.tarianyk.SummaryTask4.web.filter.CheckBanFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CheckBanFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> 
+
+	
+	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/views/private/error/error404.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>401</error-code>
+		<location>/WEB-INF/views/private/error/error401.jsp</location>
+	</error-page>
+	<context-param>
+		<param-name>login</param-name>
+		<param-value>summarytaskepam@gmail.com</param-value>
+	</context-param>
+	<context-param>
+		<param-name>password</param-name>
+		<param-value>summarytaskepamsummarytaskepam</param-value>
+	</context-param>
+</web-app>

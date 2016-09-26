@@ -1,0 +1,198 @@
+2016-08-29 20:16:29 DEBUG PreLoadListener:57 - contextInitialized method starts.
+2016-08-29 20:16:29 DEBUG CommandContainer:78 - Command container was successfully initialized
+2016-08-29 20:16:29 DEBUG PreLoadListener:69 - contextInitialized method finished.
+2016-08-29 20:16:29 DEBUG DeleteTempFiles:24 - run method starts.
+2016-08-29 20:16:29 INFO  ActivateConnectionPoolListener:47 - ActivateConnectionPoolListener context initialization starts
+2016-08-29 20:16:29 DEBUG ConnectionPool:51 - Method createConnection starts.
+2016-08-29 20:16:29 INFO  ConnectionPool:63 - Connection pool was created.
+2016-08-29 20:16:29 DEBUG ConnectionPool:64 - Method createConnection finished.
+2016-08-29 20:16:29 INFO  ActivateConnectionPoolListener:53 - Connection pool was created.
+2016-08-29 20:16:29 DEBUG ValidateFieldsAdminFormFilter:106 - Filter initialization starts.
+2016-08-29 20:16:29 DEBUG ValidateFieldsAdminFormFilter:107 - Filter initialization finished.
+2016-08-29 20:16:29 DEBUG AccessFilter:64 - Filter initialization starts.
+2016-08-29 20:16:29 DEBUG AccessFilter:66 - Filter initialization finished.
+2016-08-29 20:16:29 DEBUG ValidateFieldsLoginFormFilter:90 - Filter initialization starts.
+2016-08-29 20:16:29 DEBUG ValidateFieldsLoginFormFilter:91 - Filter initialization finished.
+2016-08-29 20:16:29 DEBUG ValidateFieldsRegisterFormFilter:88 - Filter initialization starts.
+2016-08-29 20:16:29 DEBUG ValidateFieldsRegisterFormFilter:89 - Filter initialization finished.
+2016-08-29 20:16:29 DEBUG BacketDeserializeFilter:50 - Filter initialization starts.
+2016-08-29 20:16:29 DEBUG BacketDeserializeFilter:51 - Filter initialization finished.
+2016-08-29 20:16:29 DEBUG LoginFilter:56 - Filter initialization starts.
+2016-08-29 20:16:29 DEBUG LoginFilter:58 - Filter initialization finished.
+2016-08-29 20:16:43 DEBUG CheckUserBan:70 - run method starts.
+2016-08-29 20:16:43 DEBUG CheckUserBan:70 - run method starts.
+2016-08-29 20:16:49 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:16:49 DEBUG CloseSessionServiceImpl:46 - Method interruptSession starts.
+2016-08-29 20:16:49 DEBUG CloseSessionServiceImpl:80 - Method interruptThread starts.
+2016-08-29 20:16:49 DEBUG CloseSessionServiceImpl:90 - Method interruptThread ends.
+2016-08-29 20:16:49 DEBUG CloseSessionServiceImpl:70 - Method interruptSession ends.
+2016-08-29 20:16:55 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:16:55 DEBUG ListCatalogCommandimpl:58 - Command starts.
+2016-08-29 20:16:55 DEBUG CatalogDAOimpl:68 - getList method starts.
+2016-08-29 20:16:55 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:16:55 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:16:56 DEBUG CatalogDAOimpl:102 - getList method finished.
+2016-08-29 20:16:56 DEBUG ListCatalogCommandimpl:82 - Command finished.
+2016-08-29 20:17:03 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:17:03 DEBUG ListCatalogCommandimpl:58 - Command starts.
+2016-08-29 20:17:03 DEBUG CatalogDAOimpl:68 - getList method starts.
+2016-08-29 20:17:03 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:17:03 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:17:03 DEBUG CatalogDAOimpl:102 - getList method finished.
+2016-08-29 20:17:03 DEBUG ListCatalogCommandimpl:82 - Command finished.
+2016-08-29 20:17:05 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:17:05 DEBUG ListCatalogCommandimpl:58 - Command starts.
+2016-08-29 20:17:05 DEBUG CatalogDAOimpl:68 - getList method starts.
+2016-08-29 20:17:05 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:17:05 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:17:05 DEBUG CatalogDAOimpl:102 - getList method finished.
+2016-08-29 20:17:56 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:17:56 DEBUG ListCatalogCommandimpl:58 - Command starts.
+2016-08-29 20:17:56 DEBUG CatalogDAOimpl:68 - getList method starts.
+2016-08-29 20:17:56 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:17:56 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:17:56 DEBUG CatalogDAOimpl:102 - getList method finished.
+2016-08-29 20:17:56 DEBUG ListCatalogCommandimpl:82 - Command finished.
+2016-08-29 20:17:58 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:17:58 DEBUG AddToCartCommandImpl:50 - Command starts.
+2016-08-29 20:17:58 DEBUG ShoppingCartServiceImpl:83 - addToCart method starts.
+2016-08-29 20:17:58 DEBUG ShoppingCartServiceImpl:121 - addToCart method finished.
+2016-08-29 20:17:58 DEBUG AddToCartCommandImpl:58 - Command finished.
+2016-08-29 20:17:58 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:17:58 DEBUG ListCatalogCommandimpl:58 - Command starts.
+2016-08-29 20:17:58 DEBUG CatalogDAOimpl:68 - getList method starts.
+2016-08-29 20:17:58 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:17:58 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:17:58 DEBUG CatalogDAOimpl:102 - getList method finished.
+2016-08-29 20:17:58 DEBUG ListCatalogCommandimpl:82 - Command finished.
+2016-08-29 20:18:00 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:00 DEBUG AddToCartCommandImpl:50 - Command starts.
+2016-08-29 20:18:00 DEBUG ShoppingCartServiceImpl:83 - addToCart method starts.
+2016-08-29 20:18:00 DEBUG ShoppingCartServiceImpl:121 - addToCart method finished.
+2016-08-29 20:18:00 DEBUG AddToCartCommandImpl:58 - Command finished.
+2016-08-29 20:18:00 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:00 DEBUG ListCatalogCommandimpl:58 - Command starts.
+2016-08-29 20:18:00 DEBUG CatalogDAOimpl:68 - getList method starts.
+2016-08-29 20:18:00 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:18:00 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:18:00 DEBUG CatalogDAOimpl:102 - getList method finished.
+2016-08-29 20:18:00 DEBUG ListCatalogCommandimpl:82 - Command finished.
+2016-08-29 20:18:01 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:01 DEBUG AddToCartCommandImpl:50 - Command starts.
+2016-08-29 20:18:01 DEBUG ShoppingCartServiceImpl:83 - addToCart method starts.
+2016-08-29 20:18:01 DEBUG ShoppingCartServiceImpl:121 - addToCart method finished.
+2016-08-29 20:18:01 DEBUG AddToCartCommandImpl:58 - Command finished.
+2016-08-29 20:18:01 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:01 DEBUG ListCatalogCommandimpl:58 - Command starts.
+2016-08-29 20:18:01 DEBUG CatalogDAOimpl:68 - getList method starts.
+2016-08-29 20:18:01 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:18:01 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:18:01 DEBUG CatalogDAOimpl:102 - getList method finished.
+2016-08-29 20:18:01 DEBUG ListCatalogCommandimpl:82 - Command finished.
+2016-08-29 20:18:18 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:18 DEBUG SortServiceImpl:101 - sortByPriceInterval finished
+2016-08-29 20:18:20 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:20 DEBUG AddToCartCommandImpl:50 - Command starts.
+2016-08-29 20:18:20 DEBUG ShoppingCartServiceImpl:83 - addToCart method starts.
+2016-08-29 20:18:20 DEBUG ShoppingCartServiceImpl:121 - addToCart method finished.
+2016-08-29 20:18:20 DEBUG AddToCartCommandImpl:58 - Command finished.
+2016-08-29 20:18:20 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:24 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:24 DEBUG DeleteFromCartCommandImpl:48 - Command starts.
+2016-08-29 20:18:24 DEBUG ShoppingCartServiceImpl:136 - deleteFromCart method starts.
+2016-08-29 20:18:24 DEBUG ShoppingCartServiceImpl:160 - deleteFromCart method finished.
+2016-08-29 20:18:24 DEBUG DeleteFromCartCommandImpl:56 - Command finished.
+2016-08-29 20:18:32 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:32 DEBUG ValidateFieldsLoginFormFilter:63 - Filter starts
+2016-08-29 20:18:32 DEBUG ReCaptcha:49 - verify method starts.
+2016-08-29 20:18:33 DEBUG ReCaptcha:70 - verify method finished.
+2016-08-29 20:18:33 INFO  ReCaptcha:72 - reCaptcha was passed.
+2016-08-29 20:18:33 DEBUG ValidateFieldsLoginFormFilter:71 - Filter finished with valide login form.
+2016-08-29 20:18:33 DEBUG LoginCommandImpl:60 - Command starts.
+2016-08-29 20:18:33 DEBUG AuthenticationUserServiceImpl:64 - Method loginUser starts.
+2016-08-29 20:18:33 DEBUG UsersDAOimpl:129 - loginUser method starts.
+2016-08-29 20:18:33 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:18:33 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:18:33 DEBUG UsersDAOimpl:166 - loginUser method finished.
+2016-08-29 20:18:33 DEBUG CheckUserBan:70 - run method starts.
+2016-08-29 20:18:33 INFO  LoginCommandImpl:77 - User was logged. Created session with id: A022A9A8E2BC51B249E0E1B0E5F07677
+2016-08-29 20:18:33 DEBUG LoginCommandImpl:86 - Command finished.
+2016-08-29 20:18:35 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:35 DEBUG BuyThingCommandImpl:84 - Command starts.
+2016-08-29 20:18:35 DEBUG ShoppingCartServiceImpl:175 - buyThing method starts.
+2016-08-29 20:18:35 DEBUG OrdersDAOimpl:71 - buyThing method starts.
+2016-08-29 20:18:35 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:18:35 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:18:35 DEBUG OrdersDAOimpl:106 - buyThing method finished.
+2016-08-29 20:18:35 DEBUG ShoppingCartServiceImpl:188 - buyThing method dinished.
+2016-08-29 20:18:35 DEBUG OrdersServiceImpl:50 - getOrders method starts.
+2016-08-29 20:18:35 DEBUG OrdersServiceImpl:51 - getOrders method finished.
+2016-08-29 20:18:35 DEBUG OrdersDAOimpl:118 - getOrders method starts.
+2016-08-29 20:18:35 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:18:35 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:18:35 DEBUG OrdersDAOimpl:152 - getOrders method finished.
+2016-08-29 20:18:35 DEBUG GeneratePDF:104 - createDocument method starts.
+2016-08-29 20:18:35 DEBUG BuyThingCommandImpl:112 - Command finished.
+2016-08-29 20:18:37 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:37 DEBUG ValidateFieldsAdminFormFilter:78 - Filter starts
+2016-08-29 20:18:37 DEBUG ValidateFieldsAdminFormFilter:86 - Filter finished with valide admin form.
+2016-08-29 20:18:37 DEBUG AdminAreaCommandImpl:65 - Command starts.
+2016-08-29 20:18:37 DEBUG AdminAreaCommandImpl:89 - forward case finished.
+2016-08-29 20:18:37 DEBUG ValidateFieldsAdminFormFilter:95 - Filter finished
+2016-08-29 20:18:37 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:39 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:39 DEBUG PersonalAreaCommandImpl:53 - Command starts.
+2016-08-29 20:18:39 DEBUG OrdersServiceImpl:50 - getOrders method starts.
+2016-08-29 20:18:39 DEBUG OrdersServiceImpl:51 - getOrders method finished.
+2016-08-29 20:18:39 DEBUG OrdersDAOimpl:118 - getOrders method starts.
+2016-08-29 20:18:39 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:18:39 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:18:39 DEBUG OrdersDAOimpl:152 - getOrders method finished.
+2016-08-29 20:18:39 DEBUG PersonalAreaCommandImpl:68 - Command finished.
+2016-08-29 20:18:48 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:48 DEBUG PersonalAreaCommandImpl:53 - Command starts.
+2016-08-29 20:18:48 DEBUG OrdersServiceImpl:50 - getOrders method starts.
+2016-08-29 20:18:48 DEBUG OrdersServiceImpl:51 - getOrders method finished.
+2016-08-29 20:18:48 DEBUG OrdersDAOimpl:118 - getOrders method starts.
+2016-08-29 20:18:48 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:18:48 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:18:48 DEBUG OrdersDAOimpl:152 - getOrders method finished.
+2016-08-29 20:18:48 DEBUG PersonalAreaCommandImpl:68 - Command finished.
+2016-08-29 20:18:51 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:51 DEBUG ChangeLanguageCommandImpl:60 - Command starts.
+2016-08-29 20:18:51 DEBUG ProcessUserServiceImpl:62 - Method change starts.
+2016-08-29 20:18:51 DEBUG UsersDAOimpl:268 - changeLanguage method starts.
+2016-08-29 20:18:51 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:18:51 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:18:51 DEBUG UsersDAOimpl:296 - changeLanguage method finished.
+2016-08-29 20:18:51 DEBUG ProcessUserServiceImpl:64 - Method change finished.
+2016-08-29 20:18:51 DEBUG ChangeLanguageCommandImpl:82 - Command finished.
+2016-08-29 20:18:51 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:51 DEBUG PersonalAreaCommandImpl:53 - Command starts.
+2016-08-29 20:18:51 DEBUG OrdersServiceImpl:50 - getOrders method starts.
+2016-08-29 20:18:51 DEBUG OrdersServiceImpl:51 - getOrders method finished.
+2016-08-29 20:18:51 DEBUG OrdersDAOimpl:118 - getOrders method starts.
+2016-08-29 20:18:51 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:18:51 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:18:51 DEBUG OrdersDAOimpl:152 - getOrders method finished.
+2016-08-29 20:18:51 DEBUG PersonalAreaCommandImpl:68 - Command finished.
+2016-08-29 20:18:54 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:18:54 DEBUG CloseSessionServiceImpl:46 - Method interruptSession starts.
+2016-08-29 20:18:54 DEBUG CloseSessionServiceImpl:80 - Method interruptThread starts.
+2016-08-29 20:18:54 DEBUG CloseSessionServiceImpl:90 - Method interruptThread ends.
+2016-08-29 20:18:54 DEBUG CloseSessionServiceImpl:70 - Method interruptSession ends.
+2016-08-29 20:19:01 DEBUG AccessFilter:88 - Filter finished with access.
+2016-08-29 20:19:01 DEBUG ValidateFieldsLoginFormFilter:63 - Filter starts
+2016-08-29 20:19:01 DEBUG ReCaptcha:49 - verify method starts.
+2016-08-29 20:19:01 DEBUG ReCaptcha:70 - verify method finished.
+2016-08-29 20:19:01 INFO  ReCaptcha:72 - reCaptcha was passed.
+2016-08-29 20:19:01 DEBUG ValidateFieldsLoginFormFilter:71 - Filter finished with valide login form.
+2016-08-29 20:19:01 DEBUG LoginCommandImpl:60 - Command starts.
+2016-08-29 20:19:01 DEBUG AuthenticationUserServiceImpl:64 - Method loginUser starts.
+2016-08-29 20:19:01 DEBUG UsersDAOimpl:129 - loginUser method starts.
+2016-08-29 20:19:01 DEBUG ConnectionPool:76 - Method getConnection starts.
+2016-08-29 20:19:01 DEBUG ConnectionPool:83 - Method getConnection finished.
+2016-08-29 20:19:01 DEBUG UsersDAOimpl:166 - loginUser method finished.
+2016-08-29 20:19:01 DEBUG CheckUserBan:70 - run method starts.
+2016-08-29 20:19:01 INFO  LoginCommandImpl:77 - User was logged. Created session with id: 744177669CC447CD8931D399535307A1
+2016-08-29 20:19:01 DEBUG LoginCommandImpl:86 - Command finished.

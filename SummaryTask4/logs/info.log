@@ -1,0 +1,7 @@
+2016-08-29 20:16:29 INFO  ActivateConnectionPoolListener:47 - ActivateConnectionPoolListener context initialization starts
+2016-08-29 20:16:29 INFO  ConnectionPool:63 - Connection pool was created.
+2016-08-29 20:16:29 INFO  ActivateConnectionPoolListener:53 - Connection pool was created.
+2016-08-29 20:18:33 INFO  ReCaptcha:72 - reCaptcha was passed.
+2016-08-29 20:18:33 INFO  LoginCommandImpl:77 - User was logged. Created session with id: A022A9A8E2BC51B249E0E1B0E5F07677
+2016-08-29 20:19:01 INFO  ReCaptcha:72 - reCaptcha was passed.
+2016-08-29 20:19:01 INFO  LoginCommandImpl:77 - User was logged. Created session with id: 744177669CC447CD8931D399535307A1
